@@ -1,0 +1,1 @@
+C:\Users\USER\Desktop\Pradict\Pradict\platforms\windows\CordovaApp.Windows.jsproj;neutral
