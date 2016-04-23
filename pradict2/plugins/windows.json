@@ -1,0 +1,129 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "package.appxmanifest": {
+                "parents": {
+                    "/Package/Capabilities": [
+                        {
+                            "xml": "<DeviceCapability Name=\"location\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<DeviceCapability Name=\"webcam\" />",
+                            "count": 2
+                        },
+                        {
+                            "xml": "<DeviceCapability Name=\"microphone\" />",
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            "package.phone.appxmanifest": {
+                "parents": {
+                    "/Package/Capabilities": [
+                        {
+                            "xml": "<m3:Capability Name=\"contacts\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "package.windows10.appxmanifest": {
+                "parents": {
+                    "/Package/Capabilities": [
+                        {
+                            "xml": "<uap:Capability Name=\"contacts\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<preference name=\"WindowsToastCapable\" value=\"true\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "pradict2"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "480927380414",
+            "PACKAGE_NAME": "pradict2"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "pradict2"
+        }
+    }
+}
